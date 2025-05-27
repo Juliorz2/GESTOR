@@ -1,24 +1,21 @@
-import React from 'react';
-import Header from './components/header';
-import Footer from './components/footer';
-import Producto from './components/producto';
-import './App.css';
+import React from "react";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Producto from "./components/producto";
+import { primercomponete } from "./components/primercomponete";
+import "./App.css";
 
 function App() {
-  const productos = [
-    { nombre: "Pantalon", precio: 100 },
-    { nombre: "Camiseta", precio: 200 },
-    { nombre: "Camiseta", precio: 300 },
-  ];
-
   return (
     <div className="App">
       <Header />
+      <primercomponete />
       <main>
-        {productos.map(producto => (
-          <Producto key={producto.nombre} nombre={producto.nombre} precio={producto.precio} />
-        ))}
+        <Producto />
       </main>
+
+      <primercomponete />
+
       <Footer />
     </div>
   );
