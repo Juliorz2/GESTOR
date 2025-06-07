@@ -1,45 +1,41 @@
-body{
-
-   font-family: sans-serif; 
-   line-height: 1.6;
-   margin: 0;
-   padding: 0;  
-
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    background-color: rgb(63, 56, 56);
-    color:white;
-    padding: 10px;
-    text-align: center;
-    
+header {
+  background-color: rgb(20, 80, 114);
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
-nav ul{
-    padding: 0;
-    list-style: none;
+nav ul {
+  padding: 0;
+  list-style: none;
 }
 
-nav ul li{
-    display: inline;
-    margin: 0 10px;
+nav ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: rgb(199, 186, 186);
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-main{
-   padding: 20px;
+main {
+  padding: 20px;
 }
-footer{
-    background-color: rgb(63, 56, 56);
-    color:white;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
+footer {
+  background-color: rgb(20, 80, 114);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

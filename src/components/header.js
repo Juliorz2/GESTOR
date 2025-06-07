@@ -6,13 +6,13 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="index.html">INICIO</a>
+            <a href="index.html">ASIGNACIONES</a>
           </li>
           <li>
-            <a href="productos.html">PRODUCTOS</a>
+            <a href="productos.html">PERSONAL</a>
           </li>
           <li>
-            <a href="contacto.html">CONTACTO</a>
+            <a href="contacto.html">POR REALIZAR</a>
           </li>
         </ul>
       </nav>
